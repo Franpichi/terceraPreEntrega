@@ -1,4 +1,3 @@
-// app/controllers/CartController.js
 const CartRepository = require('../repositories/CartRepository');
 const ProductRepository = require('../repositories/ProductRepository');
 const TicketRepository = require('../repositories/TicketRepository');

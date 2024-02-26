@@ -1,4 +1,3 @@
-// app/models/Ticket.js
 const mongoose = require('mongoose');
 
 const ticketSchema = new mongoose.Schema({

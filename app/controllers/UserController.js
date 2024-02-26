@@ -1,4 +1,3 @@
-// app/controllers/UserController.js
 const UserRepository = require('../repositories/UserRepository');
 
 module.exports = {
@@ -23,7 +22,7 @@ module.exports = {
       if (!validPassword) {
         return res.status(401).json({ message: 'Contraseña incorrecta' });
       }
-      // Aquí podrías generar y devolver un token de autenticación si lo deseas
+      // Generar y devolver un token de autenticación si lo deseas
       res.json({ message: 'Inicio de sesión exitoso' });
     } catch (error) {
       console.error(error);

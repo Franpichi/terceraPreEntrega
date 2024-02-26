@@ -1,4 +1,3 @@
-// app/middleware/authorizationMiddleware.js
 const authorizationMiddleware = (req, res, next) => {
     try {
       // Implementación de la lógica de autorización

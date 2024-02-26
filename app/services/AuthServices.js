@@ -1,4 +1,3 @@
-// app/services/AuthService.js
 const jwt = require('jsonwebtoken');
 const RepositoryFactory = require('../repositories/RepositoryFactory');
 
